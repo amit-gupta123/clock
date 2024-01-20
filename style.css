@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+    /*font-family: sans-serif;*/  
+}
+
+#Body-header {
+    height: 65vh;
+    background-image: url(images/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+    background-attachment: fixed;
+}
+
+#Body-header h2 {
+    margin: 0px;
+}
+
+.Horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Horizontal-list li {
+    display: inline-block;
+    font-size: 25px;
+    margin: 40px 10px 10px 0px;
+}
+
+.Horizontal-list a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.8s, border-bottom 0.5s;
+    ;
+}
+
+.Horizontal-list a:hover {
+    color: grey;
+    border-bottom: 1px solid gray;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#name {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.1rem;
+
+}
+
+#name-social-container {
+    margin-top: 15vh;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+}
+
+.social-icons li a i {
+
+    color:whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/**************************************/
+
+#about {
+    width: 60%;
+}
+
+
+#about-para {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#my_image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    box-shadow: 8px red;
+
+}
+
+#my_image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid gray;
+    box-shadow: .5cm grey;
+
+}
+
+.section-heading {
+    font-weight: 600;
+    width: auto;
+    padding: 20px 10px 10px;
+    /* margin: 10px auto; */
+    /*font-family: consolas;*/
+
+}
+
+.section-heading span {
+    font-size: 30px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+section {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: antiquewhite;
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+
+/* timeline */
+
+.timeline {
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+    
+}
+
+.timeline-box{
+    position: relative;
+    width: 40%;
+    margin: 5px;
+    left: 5%;
+    border: 2px solid black;
+    min-height: 150px;
+}
+
+
+/* skill section */
+
+.skills-display{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parent-div{
+    height: .8cm;
+    width: 3cm;
+    background-color: lightgray;
+    border-radius: .4cm;
+}
+.child-div{
+    background-color:orangered;
+    align-items: center;
+    border-radius: .4cm;
+    width: 70%;
+    height: .8cm;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0;
+    font-family:'Courier New';
+}
+
